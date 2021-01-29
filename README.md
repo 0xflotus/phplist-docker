@@ -34,14 +34,18 @@ Edit the values to match your situation
 
 You can leave the database values, but you will need to set
     
-    PHPLIST_ADMINNAME="Your Name"
-    PHPLIST_ADMINPASSWORD="SomeRandomPassword"
-    PHPLIST_ADMINEMAIL=YourEmail@Yourdomain.com
-    
+```properties
+PHPLIST_ADMINNAME="Your Name"
+PHPLIST_ADMINPASSWORD="SomeRandomPassword"
+PHPLIST_ADMINEMAIL=YourEmail@Yourdomain.com
+```
+
 and
     
-    PORT=8000
-    HOSTNAME=localhost
+```properties
+PORT=8000
+HOSTNAME=localhost
+```
     
 *HOSTNAME* is the name you will be accessing your phpList installation on. Port will be
 the port to connect to. To try it out on your local machine, you can use the defaults.
